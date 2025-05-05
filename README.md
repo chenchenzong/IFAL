@@ -1,4 +1,6 @@
+# Official Implementation of IJCAI'25 paper "Inconsistency-Based Federated Active Learning"
 
+by **Chen-Chen Zong, Tong Jin, Sheng-Jun Huang**
 
 ## Run 
 
@@ -11,3 +13,6 @@ python main.py --gpu 0 --seed 1 --al_method ifal --model cnn4conv --dataset tiny
 
 ```
 
+## Acknowledgement
+
+Thanks to Kim et al. for publishing their code for [LoGo](https://github.com/raymin0223/LoGo). Our implementation is heavily based on their work.
