@@ -34,7 +34,7 @@ def js_div(p, q):
     m = 0.5 * (p + q)
     return 0.5 * kl_div(p, m) + 0.5 * kl_div(q, m)
 
-class FAA_local(Strategy):
+class IFAL(Strategy):
     def query(self, user_idx, label_idxs, unlabel_idxs, n_query=100):
         unlabel_idxs = np.array(unlabel_idxs)
 
